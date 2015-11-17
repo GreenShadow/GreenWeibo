@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumberImageButton">
+        <attr name="isLikeMode" format="boolean" />
+        <attr name="isLike" format="boolean" />
+        <attr name="content" format="string" />
+        <attr name="number" format="integer" />
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+</resources>

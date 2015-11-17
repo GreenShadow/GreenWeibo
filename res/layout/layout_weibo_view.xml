@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <com.greenshadow.openweibo.views.UserView
+        android:id="@+id/user_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_weibo_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autoLink="web"
+        android:text="lskdfkshfgkh" />
+
+    <TextView
+        android:id="@+id/tv_weibo_content_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:autoLink="web"
+        android:background="#dddddd"
+        android:padding="10dp"
+        android:text="lskdfkshfgkh" />
+
+    <com.greenshadow.openweibo.views.WeiboImageGridView
+        android:id="@+id/weibo_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="3dp"
+        android:numColumns="3"
+        android:verticalSpacing="3dp"
+        android:visibility="gone" >
+    </com.greenshadow.openweibo.views.WeiboImageGridView>
+
+</LinearLayout>
